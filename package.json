@@ -1,0 +1,25 @@
+{
+  "name": "restaurant_top",
+  "version": "1.0.0",
+  "description": "TOP restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BigAndoss/restaurant_TOP.git"
+  },
+  "author": "Andoss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigAndoss/restaurant_TOP/issues"
+  },
+  "homepage": "https://github.com/BigAndoss/restaurant_TOP#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
