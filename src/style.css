@@ -1,0 +1,93 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgba(0, 0, 0, 0.853);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    nav{
+        display: flex;
+        gap: 5rem;
+    }
+}
+button{
+    color: wheat;
+    border: none;
+    width: 10rem;
+    background-color:transparent;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#content{
+    background-color: rgb(255, 128, 0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    height: 100%;
+    flex: 1;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .info{
+        width: 300px;
+    }
+}
+footer{
+    color: wheat;
+    background-color: rgb(40, 40, 40);
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 1rem 5rem ; */
+    width: 100%;
+}
+.roundImg{
+    height: 400px;
+    width:600px;
+    border-radius: 100%;
+}
+
+.menu{
+    margin: 5rem 0;
+    background-color: orange;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    .foodImg{
+        width: 500px;
+        height: 300px;
+        border-radius:30px 0 0 30px
+    }
+    .desc{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: end;
+        h1,
+        h6{
+            margin: 0;
+            padding: 0.2rem;
+        }
+        p{
+            font-size: larger;
+            font-weight: bold;
+        }
+    }
+}
