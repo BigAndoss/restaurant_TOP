@@ -1,4 +1,6 @@
 import {landing, meny, clear} from "./landing.js";
+import "../src/style.css";
+
 
 landing()
 const home = document.querySelector('#Home')
