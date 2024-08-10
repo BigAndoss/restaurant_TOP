@@ -60,6 +60,17 @@ footer{
     border-radius: 100%;
 }
 
+a{
+    text-decoration: none;
+    font-size: 50px;
+    color: whitesmoke;
+    border: 10px solid whitesmoke;
+    border-radius: 50px;
+    background-color: rgb(68, 68, 68);
+    padding: 20px;
+
+}
+
 .menu{
     margin: 5rem 0;
     background-color: orange;

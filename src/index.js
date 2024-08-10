@@ -1,4 +1,4 @@
-import {landing, meny, clear} from "./landing.js";
+import {landing, meny, clear, contacts} from "./landing.js";
 import "../src/style.css";
 
 
@@ -14,4 +14,4 @@ menu.addEventListener('click',()=>{
         meny()
     }
 })
-contact.addEventListener('click',landing)
+contact.addEventListener('click',contacts)

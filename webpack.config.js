@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   entry:{ 
     index : './src/index.js',
-    landing : './src/landing.js',
+    // landing : './src/landing.js',
   },
   mode:'production',
   output: {

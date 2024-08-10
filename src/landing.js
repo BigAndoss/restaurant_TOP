@@ -72,8 +72,23 @@ const clear = () =>{
     const content = document.querySelector('#content')
     content.innerHTML = ''
 }
+const contacts = () =>{
+    clear()
+    const content = document.querySelector('#content')
+    content.style.background = 'rgb(255, 128, 0)'  
 
+    const body = document.createElement('div')
+    body.setAttribute('class','body')
+    const link = document.createElement('a')
+    const gitLink = document.createElement('h1')
+    gitLink.textContent = "My GitHub link page"
+
+    link.appendChild(gitLink)
+    link.href = "https://github.com/BigAndoss"
+    body.appendChild(link)
+    content.appendChild(body)
+}
 // const Menu = document.querySelector('#Menu')
 // Menu.addEventListener('click',menu)
 
-export {landing, meny, clear};
+export {landing, meny, clear, contacts};
